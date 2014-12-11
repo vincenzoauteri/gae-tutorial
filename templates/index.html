@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <title>Frontend Developer</title>
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/index.css">
-  </head>
-<body>
-    <div class="container main">
-        <!-- Two rows -->
-        <div class="row">
-            <!-- Title, 12 columns row -->
-            <div class="col-md-12">
-                <h1 class="title text-center">Frontend Nanodegree Project set</h1>
-            </div>
-            <div class="col-md-6">
-                <h1 class="title text-left"></h1>
-            </div>
-            <div class="col-md-6 subtitle">
-                <h2 class="title text-right">Vincenzo Auteri</h2>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Content, one 5u left column and one 7u right column -->
-            <div class="col-md-4">
-                <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
-                <div> 
-                    <a href="project1">Project 1: Translate a mock-up to html</a>
+    <head>
+        <meta charset="utf-8">
+        <title>Frontend Developer</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="container main">
+            <!-- Two rows -->
+            <div class="row">
+                <!-- Title, 12 columns row -->
+                <div class="col-md-12">
+                    <h1 class="text-center">Frontend Nanodegree</h1>
                 </div>
-                <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
+                <div class="col-md-12">
+                    <h2 class="text-center">How to get your project live on the internet in 15 minutes (sorta)</h2>
+                    <p>Nowadays getting a web page up on the internet is almost trivial, in this small tutorial I will try to show how to do it courtesy of Google App Engine.</p>
+                    <p>GAE is a framework/service that allows you to upload your app on Google servers, and it will take care of hosting it, provides a basic dns address, and makes updates painless.</p>
+                    <p>They also provides a free daily quota that should be more than enough for any test/proof of concept web app. The idea is giving you a quick way of uploading your work on the internet.</p>
+                    <p>I made a very basic skeleton for a web app (based on the examples in the excellent Web Application class from Steve Huffman on Udacity), which you can use as a template/base.</p>
+                    <p>The backend is python based, but it is not necessary to modify it, for a very basic use.</p>
+                    <p>At the very least you should be able to change the index.html (this very page) and the main.css with your own, and be able to upload a single page.</p>
+                </div>
+
+                <div class="col-md-12">
+                    <ul>
+                        <li>
+                        <h2>Step 1: Download and Install Python 2.7</h2>
+                        <p>GAE supports different backend languages, I like python personally 
+                        (and you should be very familiar with it if you took some CS class on Udacity). 
+                        If you don't have it installed already (run  <code>python --version</code> from 
+                        the command line to check), you can download the latest version here: 
+                        </p> 
+                        <a href="https://www.python.org/downloads/">Python 2.7</a>
+                        </li> 
+
+                        <li><h2>Step 2: Download and Install Google App Engine SDK</h2>
+                        <p>
+                        Make sure you select the version for your OS and the one based on Python.
+                        </p>
+                        <a href="https://cloud.google.com/appengine/downloads">Google App Engine SDK</a>
+                        </li>
+                        <li><h2>Step 3: Clone or download this same webpage from github></h2></li>
+                        <li><h2>Step 4: Create an existing app in GAE pointing to the downloaded application</h2></li>
+                        <li><h2>Step 5: Change/edit the index.html and main.css files with your own code</h2></li>
+                        <li><h2>Step 6: Deploy the application on Google servers</h2></li>
+                        <li><h2>Step 7: Profit!</h2></li>
+
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
-                <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
-            </div>
-            <div class="col-md-4">
-                <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
-                <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
+            <div class="row">
+                <!-- Content, one 5u left column and one 7u right column -->
+                <div class="col-md-4">
+                    <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive left-column" src="images/mug.png" alt="Orange Mug">
+                </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html> 

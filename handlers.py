@@ -46,10 +46,4 @@ class IndexHandler(Handler):
         """Function called when the entry page is requested"""
         self.render("index.html")
 
-class Project1Handler(Handler):
-    """Class used to display the page with a single blog entry"""
-
-    def get(self):
-        """Function called when the entry page is requested"""
-        self.render("project1.html")
 
