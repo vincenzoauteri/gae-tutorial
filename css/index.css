@@ -1,0 +1,32 @@
+/* tag selectors */
+body {
+    font-family: 'Lucida Grande', sans-serif;
+    color: #666;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 48px;
+    color:#666;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 8px;
+    margin-top: 0px;
+    color: #F07C17;
+}
+
+/* class selectors */
+.main {
+    max-width:960px;
+    padding-top:25px;
+}
+
+
+.text-paragraph {
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 31px;
+}
