@@ -115,24 +115,31 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('topContacts').style.display = 'none';
+      console.log ("No content in topContacts");
     }
     if(document.getElementsByTagName('h1').length === 0) {
       document.getElementById('header').style.display = 'none';
+      console.log ("No content in header");
     }
     if(document.getElementsByClassName('work-entry').length === 0) {
       document.getElementById('workExperience').style.display = 'none';
+      console.log ("No content in workExperience");
     }
     if(document.getElementsByClassName('project-entry').length === 0) {
       document.getElementById('projects').style.display = 'none';
+      console.log ("No content in projects");
     }
     if(document.getElementsByClassName('education-entry').length === 0) {
       document.getElementById('education').style.display = 'none';
+      console.log ("No content in education");
     }
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('letsConnect').style.display = 'none';
+      console.log ("No content in letsConnect");
     }
     if(document.getElementById('map') === null) {
       document.getElementById('mapDiv').style.display = 'none';
+      console.log ("No content in mapDiv");
     }
   </script>
 </body>
