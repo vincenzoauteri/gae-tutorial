@@ -1,3 +1,5 @@
 .DS_store
 *.pyc
 static
+*.js~
+*.html~
